@@ -1,5 +1,7 @@
 This is a Python script I created to rotate the public-facing IP address. It's quite simple, just monitoring for lost pings or failed website connections using selenium to login to the web UI, going to settings, APN, then changing the APN once packet's have been detected as lost.
 
+This router is mainly provided by 3 5G broadband.
+
 Checks for everything with seleniumm & wait.until
 
 Unfortunately, the router takes some time to reboot, but it consistently assigns a different public IP address and avoids placing users behind a CGNAT IP.
